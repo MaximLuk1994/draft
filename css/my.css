@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+/* TABS */
+
+.my-tab-content--active {
+    display: inline-block;
+}
+
+.my-tab-content--nonactive {
+    display: none;
+}
+
+
+/* SELECT */
+
+.my-select {
+    display: inline-block;
+    position: relative;
+}
+
+.my-select__input {
+    position: relative;
+    width: 100%;
+}
+
+.my-select__input {
+    cursor: default;
+    padding: 0 3px;
+}
+
+.my-select__container--active {
+    border: 1px solid black;
+    border-top: none;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+.my-select__container--nonactive {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.my-select__option {
+    display: block;
+    /* border: 1px solid black;
+    border-top: none; */
+    background-color: white;
+    padding: 0 3px;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.my-select__option:hover {
+    background-color: #466ad4;
+    color: white;
+    cursor: default;
+}
