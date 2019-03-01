@@ -1,6 +1,6 @@
 setTabs = function(element) {
     const form = document.querySelector(element),
-        tabControl = form.querySelectorAll(`${element}:first-child :first-child>ul>li`);
+        tabControl = form.querySelectorAll(`${element} :first-child :first-child>ul>li`);
 
     tabControl.forEach(function(element) {
         let btn = element.querySelector('a'),
